@@ -1,0 +1,197 @@
+/* Estilos Generales*/
+* {
+   margin: 0;
+   padding: 0;
+   background-color:#e0dbd7;
+   font-family: Montserrat;	
+}
+.body-index{
+     display: flex;
+     height: 600px;
+     flex-direction: column;
+    padding: 1em;
+}
+
+
+/* Header todas las paginas*/
+.header-h1 {
+    font-size: 60px;
+    font-weight:  900;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/*nav {
+   text-align: center;
+}*/
+.header-h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight:lighter;
+    color: #946f61;
+    word-spacing: 1px;
+}
+/*header index*/
+.nav-menupri {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 7px;
+    margin-left: 5px;
+    font-style: italic;
+    color:black;
+}
+.nav-menupri > div {
+    margin: 10px; 
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+          }
+/*header views*/
+.header-views{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 150px 50px 100px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+}
+.header-menu{
+
+
+}    
+
+
+
+
+/* Main index*/
+
+/*main nav ul li {
+
+    display: inline-block;
+    padding: 7px;
+    margin-left: 5px;
+    background-color: #c5b0a6;
+    border-radius: 5px;
+   }
+
+   
+
+
+
+.main_index{
+
+	text-align: center;
+}
+
+
+.img_index {
+
+	margin: 0px;
+	padding: 0px;
+
+}
+.img_bio {
+
+    margin: 0px;
+	padding: 0px;
+	text-align: left;
+
+}
+.text_bio {
+
+	text-align: justify;
+    padding-left: 500px;
+    padding-right: 50px;
+}*/
+.main-index {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img-main-index{
+    justify-content: center;
+    margin: 50px; 
+    align-self: center;
+}
+.main-h2 {
+    align-self: center;
+    
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 7px;
+    margin-left: 5px;
+    font-style: italic;
+    color:black;
+}
+.redes > div {
+    margin: 10px;
+    padding: auto;
+    align-items: center;
+}
+/* Footer index*/
+.footer-index{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+/* footer todas la páginas*/
+footer{
+    text-align:left ; 
+
+}
+
+footer div ul{
+    
+  display: block;    
+  padding: 7px;
+  margin-left: 5px;
+
+}
+ footer p {
+  text-align: right;
+
+ }
+ /* MAIN SECCIONES*/
+
+ .subtitulos{
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+ }    
+ .lista-shows{
+     text-align: center;
+     font-size: 10px;
+     font-weight: 200;
+     color:#392e27;
+     word-spacing: 1px;
+ }
+
+ /* Seccion Musica*/
+.body-musica{
+     
+
+} 
+
+ table {
+      height: 50%;
+
+ }
+
+
+
+
+
+
+
+
