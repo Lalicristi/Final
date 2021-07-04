@@ -21,10 +21,6 @@
     letter-spacing: 2px;
     text-align: center;
 }
-
-/*nav {
-   text-align: center;
-}*/
 .header-h2{
     text-align: center;
     font-size: 20px;
@@ -49,64 +45,9 @@
     padding: 20px;
     font-size: 20px;
     text-align: center;
-          }
+}
 /*header views*/
-.header-views{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 150px 50px 100px;
-        padding: 10px;
-        margin: 10px;
-        border: 1px solid black;
-}
-.header-menu{
 
-
-}    
-
-
-
-
-/* Main index*/
-
-/*main nav ul li {
-
-    display: inline-block;
-    padding: 7px;
-    margin-left: 5px;
-    background-color: #c5b0a6;
-    border-radius: 5px;
-   }
-
-   
-
-
-
-.main_index{
-
-	text-align: center;
-}
-
-
-.img_index {
-
-	margin: 0px;
-	padding: 0px;
-
-}
-.img_bio {
-
-    margin: 0px;
-	padding: 0px;
-	text-align: left;
-
-}
-.text_bio {
-
-	text-align: justify;
-    padding-left: 500px;
-    padding-right: 50px;
-}*/
 .main-index {
     display: flex;
     flex-direction: column;
@@ -137,6 +78,22 @@
     padding: auto;
     align-items: center;
 }
+.img_bio{
+    justify-content: left;
+    margin: 50px;
+    padding: 10px 
+    align-self: center;
+}
+.subtitulos {
+    margin: 50px;
+    padding: 10px; 
+}
+.text_bio{
+    justify-content: row;
+    margin: 50px;
+    padding: 10px 
+    align-self: center;
+}
 /* Footer index*/
 .footer-index{
     display: flex;
@@ -144,7 +101,21 @@
     justify-content: left;
     align-items: flex-start;
 }
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-direction;
+    margin: 100px;
+    padding: 50px;
+}
+.img-galeria {
+    margin: 10px;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
 
+}
 /* footer todas la páginas*/
 footer{
     text-align:left ; 
@@ -160,8 +131,9 @@ footer div ul{
 }
  footer p {
   text-align: right;
-
- }
+  margin: 10px;
+  padding: 20px;
+}
  /* MAIN SECCIONES*/
 
  .subtitulos{
